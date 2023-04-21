@@ -10,7 +10,7 @@ let apiQuotes = [];
 
 function newQuote() {
   const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
-  if (quote.author == "anonymous") {
+  if (quote.author == "Anonymous") {
     authorText.textContent = "Mr. Awesomeness";
   } else {
     authorText.textContent = quote.author;
